@@ -1,0 +1,236 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	background-color: #f5f5f5;
+	color: #4e4e4e;
+	/* position: relative; */
+}
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+/* Navigation Styling Starts here */
+#main__nav {
+	position: fixed;
+	width: 100%;
+	padding: 1rem 3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000;
+	color: #f5f5f5;
+	height: 12vh;
+	z-index: 3;
+}
+.main__nav-link {
+	text-decoration: none;
+	color: #f5f5f5;
+}
+.main__logo {
+	font-size: 3.6rem;
+}
+
+.main__ul {
+	display: flex;
+	gap: 2rem;
+	list-style-type: none;
+}
+
+.main__li > a {
+	font-size: 2rem;
+	text-decoration: none;
+	color: #f5f5f5;
+}
+.main__li > a:hover {
+	color: #f0642d;
+}
+/* Navigation Styling Ends here */
+
+/* Hero Section Start */
+.hero {
+	background-image: url(/client/img/clint-patterson-dYEuFB8KQJk-unsplash.jpg);
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 0;
+	display: flex;
+	color: #f5f5f5;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.6rem;
+	opacity: 1;
+}
+.hero__text {
+	color: #f0642d;
+}
+/* Hero Section End */
+
+/* About Section Start */
+#about {
+	/* margin-top: 12rem; */
+	height: 88vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* overflow: hidden; */
+	scroll-margin-top: 12vh;
+}
+.about__container {
+	width: 78%;
+	height: 80%;
+	background: #ffffff;
+	padding: 3rem 6rem;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	overflow: hidden;
+	box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+.about__container:hover {
+	box-shadow: 0 0 0 -5px rgba(0, 0, 0, 0.1);
+}
+.about__h {
+	font-size: 4rem;
+	color: #000;
+	text-decoration: underline;
+	text-decoration-color: #f0642d;
+	text-underline-offset: 15px;
+}
+.about__text {
+	margin-top: 1rem;
+	font-size: 2rem;
+	word-spacing: 1px;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+}
+/* About Section End */
+
+/* Skill Section Start */
+#skill {
+	height: 88vh;
+	background: #ffffff;
+	padding: 3rem 6rem;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+	scroll-margin-top: 12vh;
+}
+.skill__container {
+	width: 88%;
+	height: 80%;
+	padding: 3rem 6rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	background-color: #4e4e4e;
+	box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
+}
+.skill_h {
+	font-size: 3rem;
+	text-align: center;
+	color: #000000;
+}
+.skill_text {
+	color: #f5f5f5;
+	font-size: 2.3rem;
+}
+.progress {
+	background-color: #faded3;
+	margin: 0.5rem 0 1.2rem 0;
+	border-radius: 0;
+	height: 0.7rem;
+}
+.progress_bar {
+	height: 0.7rem;
+	background-color: #f0642d;
+}
+.progress__container {
+	width: 90%;
+}
+/* Skill Section End */
+/* Contact Section Start */
+#contact {
+	height: 88vh;
+	background: #222222;
+	color: #f5f5f5;
+	padding: 3rem 6rem;
+	font-size: 2rem;
+	/* border-top: 2px solid #f5f5f5; */
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+	scroll-margin-top: 12vh;
+}
+.contact__container {
+	/* background: #fff; */
+	height: 100%;
+}
+#location__img {
+	width: 30px;
+	height: 30px;
+	padding: 0.4rem;
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #f5f5f5;
+}
+.contact__top {
+	width: 80%;
+	margin: 5% auto;
+	text-align: center;
+	/* margin-top: 5%; */
+}
+address {
+	width: 60%;
+	display: inline-block;
+	font-style: italic;
+	font-size: 1.6rem;
+	margin-left: 1.5rem;
+}
+.text__orange {
+	color: #f0642d;
+}
+.contact__top-ul {
+	display: grid;
+	padding: 2rem 3rem;
+	justify-content: space-between;
+	gap: 3rem;
+	grid-template-columns: repeat(2, 1fr);
+}
+.contact__bottom {
+	width: 80%;
+	margin: 0 auto;
+	padding: 3rem;
+	margin-top: 3rem;
+}
+.contact__bottom img {
+	padding: 0.5rem;
+	background-color: #f5f5f5;
+	border-radius: 50%;
+	display: inline-block;
+	width: 5rem;
+	height: 5rem;
+}
+.contact__bottom-ul {
+	display: flex;
+	justify-content: space-evenly;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+}
+/* Contact Section Ends */
