@@ -58,7 +58,7 @@ a {
 
 /* Hero Section Start */
 .hero {
-	background-image: url(/client/img/clint-patterson-dYEuFB8KQJk-unsplash.jpg);
+	background-image: url(../img/clint-patterson-dYEuFB8KQJk-unsplash.jpg);
 	height: 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
