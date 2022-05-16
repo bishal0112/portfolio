@@ -1,0 +1,183 @@
+/* Tablet View */
+@media screen and (max-width: 700px) {
+	.main__logo {
+		font-size: 2.2rem;
+	}
+	.main__li > a {
+		font-size: 1.2rem;
+	}
+	.about__h {
+		font-size: 2.2rem;
+	}
+	.about__container {
+		padding: 3rem 4rem;
+	}
+	.about__text {
+		font-size: 1.6rem;
+		word-spacing: 0.6px;
+		letter-spacing: 1px;
+		line-height: 20px;
+	}
+	.skill_h {
+		font-size: 2.2rem;
+	}
+	.skill_text {
+		font-size: 1.2rem;
+	}
+	#contact {
+		font-size: 1.6rem;
+	}
+	.contact__bottom img {
+		width: 4rem;
+		height: 4rem;
+	}
+	address {
+		font-size: 1.3rem;
+	}
+}
+@media screen and (max-width: 550px) {
+	.main__logo {
+		font-size: 2.2rem;
+	}
+	.main__li > a {
+		font-size: 1.2rem;
+	}
+	.about__h {
+		font-size: 2.2rem;
+	}
+	.about__container {
+		padding: 3rem 4rem;
+	}
+	.about__text {
+		font-size: 1.2rem;
+	}
+	.skill_h {
+		font-size: 2.2rem;
+	}
+	.skill_text {
+		font-size: 1.2rem;
+	}
+	#contact {
+		font-size: 1.6rem;
+	}
+	.contact__bottom img {
+		/* font-size: 1rem; */
+		width: 3rem;
+		height: 3rem;
+	}
+	.contact__top-ul {
+		grid-template-columns: repeat(1, auto);
+		justify-content: space-between;
+	}
+	address {
+		font-size: 1.2rem;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 500px) {
+	.main__logo {
+		font-size: 2.2rem;
+	}
+	.main__li > a {
+		font-size: 1.2rem;
+	}
+	.hero {
+		font-size: 1.8rem;
+	}
+	.about__h {
+		font-size: 2rem;
+	}
+	.about__container {
+		padding: 1.5rem 2rem;
+	}
+	.about__text {
+		font-size: 1rem;
+	}
+	.skill_h {
+		font-size: 2.2rem;
+	}
+	#skill {
+		padding: 1.5rem 3rem;
+	}
+	.skill__container {
+		padding: 1.5rem 3rem;
+	}
+	.skill_text {
+		font-size: 1.2rem;
+	}
+	#contact {
+		font-size: 1.6rem;
+		padding: 1rem 1rem;
+	}
+	.contact__bottom img {
+		/* font-size: 1rem; */
+		width: 3rem;
+		height: 3rem;
+	}
+	.contact__top-ul {
+		grid-template-columns: repeat(1, auto);
+		justify-content: space-between;
+	}
+	address {
+		font-size: 1.2rem;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 370px) {
+	.main__logo {
+		font-size: 2rem;
+	}
+	.main__li > a {
+		font-size: 1.2rem;
+	}
+	.hero {
+		font-size: 1.8rem;
+	}
+	.about__h {
+		font-size: 2rem;
+	}
+	.about__container {
+		padding: 1.5rem 2rem;
+	}
+	.about__text {
+		font-size: 1rem;
+		line-height: 15px;
+	}
+	.skill_h {
+		font-size: 2.2rem;
+		text-decoration: underline;
+		text-decoration-color: #f0642d;
+		text-underline-offset: 8px;
+	}
+	#skill {
+		padding: 1rem 1rem;
+	}
+	.skill__container {
+		gap: 1rem 4rem;
+		padding: 1.5rem 3rem;
+	}
+	.skill_text {
+		font-size: 1.2rem;
+	}
+	#contact {
+		font-size: 1rem;
+		padding: 1rem 1rem;
+	}
+	.contact__bottom img {
+		/* font-size: 1rem; */
+		width: 3rem;
+		height: 3rem;
+	}
+	.contact__top-ul {
+		grid-template-columns: repeat(1, auto);
+		justify-content: space-between;
+	}
+	#location__img {
+		width: 20px;
+		height: 20px;
+	}
+	address {
+		font-size: 1rem;
+		text-align: center;
+	}
+}
